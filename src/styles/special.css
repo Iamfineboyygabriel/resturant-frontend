@@ -1,0 +1,119 @@
+#ourSpecials {
+  padding-top: 10rem;
+}
+.ourSpecials__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.ourSpecials__left {
+  display: flex;
+  gap: 1rem;
+}
+.ourSpecials__item {
+  background-color: var(--base-footer);
+  padding: 1.2rem;
+  padding-top: 5rem;
+  border-radius: 12px;
+  width: 45%;
+  margin: 0 auto;
+}
+.ourSpecials__item__img {
+  margin-top: calc(-50% - 2rem);
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  height: 150px;
+  overflow: hidden;
+}
+.ourSpecials__item__img img {
+  object-fit: cover;
+}
+.ourSpecials__item__title {
+  font-size: 1.4rem;
+  color: var(--base-text-2);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.ourSpecials__item__price {
+  color: var(--base-text-2);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.ourSpecials__item__stars {
+  height: 1.5rem;
+  width: max-content;
+  margin-bottom: 1rem;
+}
+.ourSpecials__item__text {
+  font-size: 1rem;
+  color: var(--base-text-2);
+  font-weight: 500;
+}
+.ourSpecials__title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: var(--base-text-2);
+}
+.ourSpecials__text {
+  font-size: 1rem;
+  color: var(--base-text-2);
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  margin-top: 3rem;
+}
+@media only screen and (min-width: 768px) {
+  #ourSpecials {
+    padding-top: 15rem;
+  }
+  #ourSpecials .container {
+    max-width: 900px;
+  }
+  .ourSpecials__wrapper {
+    flex-direction: row;
+  }
+  .ourSpecials__right {
+    flex: 2;
+  }
+  .ourSpecials__left {
+    flex: 4;
+    gap: 2rem;
+  }
+  .ourSpecials__item {
+    padding: 2rem;
+  }
+  .ourSpecials__item__title {
+    font-size: 2.4rem;
+    line-height: 1.4em;
+    margin-bottom: 1.5rem;
+  }
+  .ourSpecials__item__price {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .ourSpecials__item__stars {
+    margin-bottom: 2rem;
+  }
+  .ourSpecials__item__text {
+    font-size: 1.6rem;
+  }
+  .ourSpecials__title {
+    font-size: 3.6rem;
+    margin-bottom: 1.5rem;
+  }
+  .ourSpecials__text {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .ourSpecials__left {
+    flex-wrap: wrap;
+    gap: 10rem;
+  }
+  .ourSpecials__item {
+    width: 100%;
+  }
+}
