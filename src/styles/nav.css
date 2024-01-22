@@ -1,13 +1,15 @@
 .main__container {
-  padding: 10px 0;
+  padding: 10px 100px;
   width: 100%;
+  /* background-color: black; */
 }
 
-.container {
+.containerp {
   display: flex;
   justify-content: space-between;
   align-items: center; /* Center the logo vertically */
   padding: 0 7px;
+  /* background-color: aqua; */
 }
 
 .logo a {
@@ -49,7 +51,7 @@ nav {
 
 .btn {
   text-decoration: none;
-  padding: 20px 19px;
+  padding: 13px 15px;
   background: var(--base-button-3);
   color: var(--base-text-2);
   border: none;

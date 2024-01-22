@@ -1,0 +1,23 @@
+#eventsMedia {
+  padding-top: 0;
+}
+
+.eventsMedia__wrapper {
+  background-color: black;
+}
+
+.eventsMedia__1 {
+  flex: 1;
+}
+.eventsMedia__1 iframe {
+  width: 100%;
+}
+
+.eventsMedia__1 iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.containerk {
+  max-width: 1200px; 
+}

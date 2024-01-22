@@ -1,0 +1,80 @@
+.discount__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--base-footer);
+  padding: 1.2rem;
+  border-radius: 12px;
+  background: var(--base-footer) url("../assets/hair'.jpg") no-repeat bottom right /
+    100px;
+}
+
+.discount__images {
+  flex: 1; /* Allow the images to take up available space */
+  display: flex;
+  gap: 1rem;
+}
+
+.discount__images img {
+  margin-top: 0.7rem;
+  object-fit: cover;
+  border-radius: 12px;
+  width: 100%; /* Take up the entire width of the container */
+  max-width: 13em; /* Limit the maximum width if needed */
+  height: 20rem;
+}
+
+.discount__info {
+  flex: 1; /* Allow the info section to take up available space */
+  margin-left: 1.5rem;
+  align-items: center;
+  padding: 1.5rem; /* Adjust the padding as needed */
+}
+
+.discount__text {
+  font-size: 1.9rem;
+  font-weight: 900;
+  color: var(--base-text-2);
+  margin-bottom: 0.5rem;
+}
+
+.discount__title {
+  font-size: 2.5rem;
+  color: var(--base-text-2);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.discount__price {
+  font-size: 1.7rem;
+  font-weight: 600;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.discount__oldPrice {
+  color: var(--base-text-2);
+  text-decoration: line-through;
+}
+
+.discount__newPrice {
+  color: var(--base-text-2);
+}
+
+.discount__stars {
+  width: max-content;
+  height: 15px;
+  margin-bottom: 1rem;
+}
+
+.primary-bt {
+  background: var(--base-text-2);
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 22px;
+  font-size: 19px;
+  font-weight: 700;
+  border-radius: 9px;
+  font-family: "Libre Baskerville", serif;
+}

@@ -1,25 +1,40 @@
+/* Our Specials Section Styles */
 #ourSpecials {
   padding-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .ourSpecials__wrapper {
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  justify-content: center; /* Center the content */
 }
 .ourSpecials__left {
   display: flex;
-  gap: 1rem;
+  justify-content: center;
+  gap: 2rem;
+  width: 59em;
 }
 .ourSpecials__item {
   background-color: var(--base-footer);
-  padding: 1.2rem;
+  padding: 1rem;
   padding-top: 5rem;
   border-radius: 12px;
-  width: 45%;
+  width: 90%;
   margin: 0 auto;
 }
 .ourSpecials__item__img {
-  margin-top: calc(-50% - 2rem);
+  margin-top: calc(-50.5% - 4.5rem);
   margin-bottom: 2rem;
   border-radius: 12px;
   height: 150px;
@@ -29,15 +44,12 @@
   object-fit: cover;
 }
 .ourSpecials__item__title {
-  font-size: 1.4rem;
+  font-size: 29px;
   color: var(--base-text-2);
-  font-weight: 600;
   margin-bottom: 1rem;
 }
 .ourSpecials__item__price {
   color: var(--base-text-2);
-  font-size: 1.4rem;
-  font-weight: 600;
   margin-bottom: 1rem;
 }
 .ourSpecials__item__stars {
@@ -46,30 +58,42 @@
   margin-bottom: 1rem;
 }
 .ourSpecials__item__text {
-  font-size: 1rem;
+  font-size: 14px;
   color: var(--base-text-2);
   font-weight: 500;
 }
 .ourSpecials__title {
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin-bottom: 1.5rem;
   color: var(--base-text-2);
 }
 .ourSpecials__text {
-  font-size: 1rem;
+  font-size: 22px;
   color: var(--base-text-2);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
-.btn-primary {
-  margin-top: 3rem;
+.btn2 {
+  background: var(--base-footer);
+  text-decoration: none;
+  color: var(--base-text-2);
+  padding: 12px 22px;
+  font-size: 19px;
+  font-weight: 700;
+  border-radius: 9px;
+  font-family: "Libre Baskerville", serif;
 }
-@media only screen and (min-width: 768px) {
+
+/* .ourSpecials__right {
+  margin-top: 10rem;
+} */
+/* }
+@media only screen and (max-width: 768px) {
   #ourSpecials {
     padding-top: 15rem;
   }
   #ourSpecials .container {
-    max-width: 900px;
+    max-width: 100px;
   }
   .ourSpecials__wrapper {
     flex-direction: row;
@@ -107,13 +131,4 @@
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
   }
-}
-@media only screen and (max-width: 300px) {
-  .ourSpecials__left {
-    flex-wrap: wrap;
-    gap: 10rem;
-  }
-  .ourSpecials__item {
-    width: 100%;
-  }
-}
+} */

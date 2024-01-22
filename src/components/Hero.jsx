@@ -16,8 +16,8 @@ export default function Hero() {
   }, []);
 
   return (
-    <section>
-      <div className="container">
+    <section id="hero">
+      <div className="containerz">
         <div
           className="hero__wrapper"
           data-aos="fade-right"
@@ -42,13 +42,14 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div  className="hero__right">
+          <div className="hero__right">
             <div className="hero__imgWrapper">
-              <img src={herofood} alt="hero-food-image" />
+              <img src={herofood} alt="hero-food-image" className="hero" />
             </div>
           </div>
         </div>
       </div>
+      i
     </section>
   );
 }

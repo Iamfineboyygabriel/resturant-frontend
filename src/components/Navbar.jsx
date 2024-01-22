@@ -5,7 +5,7 @@ import { IoMdMenu } from "react-icons/io";
 export default function Navbar() {
   return (
     <div className="main__container">
-      <div className="container">
+      <div className="containerp">
         <div className="logo">
           <Link className="logo__name">Gabriel</Link>
         </div>
